@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f1f1f1;
+}
+div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100vh;
+  flex-direction: column;
+}
+canvas {
+  border: 2px solid black;
+  cursor: pointer;
+}
+button {
+  padding: 1rem;
+  border-radius: 20%;
+  cursor: pointer;
+  color: white;
+  background-color: blueviolet;
+  position: absolute;
+  top: 45%;
+  left: 5%;
+}
+p {
+  font-size: 2rem;
+  font-weight: bold;
+  color: blueviolet;
+}
