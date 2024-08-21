@@ -8,7 +8,6 @@ div {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  height: 100vh;
   flex-direction: column;
 }
 canvas {
@@ -21,9 +20,6 @@ button {
   cursor: pointer;
   color: white;
   background-color: blueviolet;
-  position: absolute;
-  top: 45%;
-  left: 5%;
 }
 p {
   font-size: 2rem;
